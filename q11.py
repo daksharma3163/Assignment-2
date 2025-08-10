@@ -7,4 +7,4 @@ with open("content.txt",'r') as file:
     print(f"Total characters: {len(content)}")
     print("Character occurrences:")
     for char, count in char_count.items():
-        print(f"'{char}': {count}")
+        print(f"'{char}': {count}",end=' ')
